@@ -24,7 +24,16 @@
 
         <Entry x:Name="txtNome" Placeholder="" Text=""/>
         <Button x:Name="btnVerificar" Text="Verificar" Clicked="btnVerificar_Clicked" />
-        <Button x:Name="btnLimpar" Text="Limpar" Clicked="btnLimpar_Clicked" />
+        <Button x:Name="btnLimpar" Text="Limpar" Clicked="btnLimpar_Clicked" BackgroundColor="DarkRed"/>
+
+        <Button x:Name="btnInformarDataNascimento" 
+                Text="Informe a Data de Nascimento" 
+                Clicked="btnInformarDataNascimento_Clicked"/>
+        
+        <Label x:Name="lblDataNascimento" Text="" />
+        <Label x:Name="lblDiasVividos" Text="" />
+
+        <Button x:Name="btnOpcoes" Text="Opções" Clicked="btnOpcoes_Clicked"/>
     </StackLayout>
 
 </ContentPage>
